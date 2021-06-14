@@ -36,16 +36,6 @@ The procedure to install CORTX on OVA is mentioned below.
    ::
    
      sudo su -
-   
-#. Change the hostname by running the following command:
-
-   * **hostnamectl set-hostname --static --transient --pretty <new-name>**
-  
-     To verify the change in hostname, run the following command:
- 
-     * **hostnamectl status**
-   
-   **Note**: Both short hostnames and FQDNs are accepted. If you do not have a DNS server with which to register the VM, you can access it directly using its IP addresses. However, the hostname is mandatory and should be configured.
 
 #. **For Oracle VM VirtualBox Users ONLY**:
    
